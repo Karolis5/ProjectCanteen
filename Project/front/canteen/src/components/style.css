@@ -1,0 +1,212 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #0e5a3a, #63bce0);
+    color: #fff;
+    font-family: "Arial, sans-serif";
+}
+
+
+.meal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    margin: auto;
+  }
+  
+  .meal-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+  }
+  
+  .meal-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .meal-button:hover {
+    background-color: #0056b3;
+  }
+  
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px; /* Increase padding */
+    background: linear-gradient(to right, #0e5a3a, #63bce0);
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.1);
+    margin: 20px; /* Add margin */
+}
+
+.input {
+    margin: 20px 0; /* Increase margin */
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.06);
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.create-text{
+    text-align: center;
+}
+
+
+.button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: cadetblue;
+    border: none;
+    color: black;
+    border-radius: 50px; /* Make the button rounded */
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: rgb(21, 90, 110)
+}
+
+.meal-container {
+    display: flex;
+    width: 70em;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background: linear-gradient(to right, #0e5a3a, #63bce0);
+    border-radius: 50px; /* Make the meal container rounded */
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.1);
+}
+
+.meal {
+    flex: 0 0 21%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 50px; /* Make the meal box rounded */
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.06);
+}
+
+.meal-image {
+    width: 80%;
+    height: 0;
+    padding-bottom: 80%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%; 
+    margin-bottom: 1em;
+}
+
+.meal h2, .meal p {
+    margin: 0.5em 0;
+}
+
+.input, .button, .meal-button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 50px; /* Make the input, button, and meal-button rounded */
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.06);
+    font-family: "Arial, sans-serif";
+    font-size: 1em; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button, .meal-button {
+    background: linear-gradient(to right, rgb(21, 90, 110));
+    color: white; /* change text color to white for better contrast */
+}
+
+.button:hover, .meal-button:hover {
+    background-color: rgb(21, 90, 110);
+    transform: scale(1.05); /* slightly enlarge buttons when hovered */
+}
+
+.input:focus {
+    outline: none;
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.1); /* add a shadow to input fields when focused */
+}
+
+
+.meal-button{
+    color: black;
+    background-color: rgb(21, 120, 110)
+}
+
+.sign-out-btn{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent; /* Make the background transparent */
+    border: none; /* Remove the border */
+    font-size: 2em; /* Increase the size of the emoji */
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: cadetblue;
+    padding: 20px;
+    border: 1px solid black;
+    z-index: 1000;
+    width: 300px; /* Set a width for the modal */
+    border-radius: 10px; /* Add some border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add some shadow */
+    text-align: center; /* Center the text */
+}
+
+  
+p{
+    color: black;
+}
+
+.Logged-in-text{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btn-yes{
+    background-color: green;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+.btn-no{
+    background-color: red;
+    padding: 5px;
+}
